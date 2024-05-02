@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  font-family: Dangrek, sans-serif;
+}
+.navbar{
+  margin: 0;
+  background-color: #100e34;
+  height: 70px;
+  margin-top:  0;
+  color: aliceblue;
+  padding: 20px 15px;
+  font-family: Dangrek, sans-serif;
+}
+/* styling a form */
+.form{
+display: grid;
+grid-template: 40px 40px / 1fr 1fr ;
+gap: 17px;
+}
+main{
+  padding: 36px;
+}
+
+
+.form-button{
+  grid-column: 1 /-1 ;
+  background-color: #100e34;
+  color: aliceblue;
+  font-size: 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  
+
+}
+.form-input{
+  border-radius: 5px solid #fffafa;
+  text-indent: 5px;
+  border: 3px solid #D3D4D8;
+  border-radius: 12px;
+  
+}
