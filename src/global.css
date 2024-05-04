@@ -40,3 +40,7 @@ main{
   border-radius: 12px;
   
 }
+.mem-image{
+  border-radius: 10px;
+  max-width: 100%;
+}
